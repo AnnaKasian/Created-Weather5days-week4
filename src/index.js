@@ -1,4 +1,6 @@
 import Weather from "./Weather";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
 import "./Weather.css";
 
