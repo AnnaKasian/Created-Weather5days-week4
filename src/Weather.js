@@ -60,6 +60,12 @@ export default function Weather() {
             <input type="submit" value="Search" className="btn btn-primary" />
             <input type="submit" value="Current" className="btn btn-success" />
           </div>
+          <div>
+            <a href="https://github.com/AnnaKasian/Created-Weather5days-week4">
+              Open-sourse code
+            </a>
+            by Anna Kasian
+          </div>
         </div>
       </form>
     </div>
