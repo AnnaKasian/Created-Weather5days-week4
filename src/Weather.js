@@ -7,7 +7,7 @@ export default function Weather() {
   const [temperature, setTemperature] = useState(null);
   function handleResponse(response) {
     console.log(response.data);
-    setTemperature(reponse.data.main.temp);
+    setTemperature(response.data.main.temp);
     setReady(true);
   }
   if (ready) {
@@ -86,8 +86,7 @@ export default function Weather() {
   } else {
     const apiKey = "c67e1dea0ba4cf764464b48e6670cb92";
     let city = "New York";
-    let apiUrl =
-      "http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric";
+    let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
     return "Loading...";
   }
