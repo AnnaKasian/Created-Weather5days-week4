@@ -86,12 +86,24 @@ header {
 }
 ul {
   color: blue;
-  margin-top: 1px;
 }
 h1 {
   text-decoration: solid;
+  margin-left: 20px;
 }
 footer {
   text-align: center;
   margin-top: 60px;
+}
+.col-6 ul li {
+  position: relative;
+  top: -60px;
+  right: 300px;
+}
+.WeatherTemperature {
+  font-size: 30px;
+  font-weight: 500;
+}
+.WeatherForecast-day {
+  margin-top: 30px;
 }

@@ -54,11 +54,6 @@ export default function Weather(props) {
             </div>
             <div className="col-3">
               <input type="submit" value="Search" className="btn btn-primary" />
-              <input
-                type="submit"
-                value="Current"
-                className="btn btn-success"
-              />
             </div>
           </div>
         </form>
@@ -66,9 +61,9 @@ export default function Weather(props) {
         <WeatherForecast coordinates={weatherData.coordinates} />
         <footer>
           <a href="https://github.com/AnnaKasian/Created-Weather5days-week4">
-            Open-sourse on GitHub
+            Open-sourse on GitHub{"  "}
           </a>
-          by Anna Kasian
+          <strong>by Anna Kasian</strong>
         </footer>
       </div>
     );
