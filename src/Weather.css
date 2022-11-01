@@ -74,3 +74,24 @@
   line-height: 15px;
   white-space: nowrap;
 }
+header {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 20px 30px 0;
+}
+.form-control {
+  margin-bottom: 30px;
+}
+ul {
+  color: blue;
+  margin-top: 1px;
+}
+h1 {
+  text-decoration: solid;
+}
+footer {
+  text-align: center;
+  margin-top: 60px;
+}
